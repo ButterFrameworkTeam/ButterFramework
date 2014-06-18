@@ -334,6 +334,17 @@ img.imgcenter
 }
 /* TEXT MISC */
 
+/* FONT - by Alan Prescott*/
+@font-face {
+    font-family: 'Clemente';
+    src: url('font/ClementePDac-ExtraLight.ttf') format('ttf');
+}
+    /* Set the police */
+h1,h2,h3,h4,h5,h6,p,a
+{
+    font-family: 'Clemente', Arial, serif;
+}
+
 /* TEXT SIZE */
 .text100
 {
