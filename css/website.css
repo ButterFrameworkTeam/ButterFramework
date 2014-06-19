@@ -1,3 +1,8 @@
+body
+{	
+    background-color: #EDEDED; /* Change background  */
+}
+
 @media screen and (max-width: 480px)
 {
     /* If the screen is > then 480px then : */
