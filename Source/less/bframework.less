@@ -1,242 +1,238 @@
  /*
 ButterFramework
 
-A very very tiny simple framework
+A very tiny simple framework
+
+You need to compile the file like 'Winless' or others
 */
-/* Default init */
-body /* The default background */
+
+
+// ------ Vars ------ 
+
+@defaultbackground: #ebebeb; // the default background
+@fontname: 'Clemente'; // The font name
+@fontformat: 'ttf';
+@fontpath: 'font/ClementePDac-ExtraLight.ttf';
+// - Colors
+@gray: gray;
+@yellow: yellow;
+@gold: #eaff29; 
+@green: green;
+@dgreen: darkgreen;
+@white: white;
+@black: black;
+@dblue: darkblue;
+@dgray: darkgray;
+@purple: purple;
+@dpurple: #3a003a; 
+@lightpurple: #ff00ff; 
+@daqua: #009e7d;
+@aqua: aqua;
+@red: red;
+@dred: darkred;
+@pink: pink;
+@amblue: #79f8f8; 
+@azur1: #007FFF;
+@azur2: #1E7FCB;
+@lightazur: #74D0F1; 
+@cclay: #EFEFEF; // C for color, another C for clay
+
+
+
+
+// Base 
+
+body 
 {
-    background-color:#ebebeb;    
+    background-color:@defaultbackground;    
 }
 
-/* COLORS - Text */
+// Colors
 .textgray
 {
-    color: gray;
+    color: @gray;
 }
 .textyel
 {
-    color: Yellow;  
+    color: @yellow;  
 }
 .textgreen
 {
-    color: green;
+    color: @green;
 }
 .textwhite
 {
-    color: white;
+    color: @white;
 }
 .textdblue
 {
-    color: darkblue;
+    color: @dblue;
 }
 .textdgray
 {
-    color: darkgray;
+    color: @dgray;
 }
 .textpurp
 {
-    color: purple;
+    color: @purple;
 }
 .textbl
 {
-    color: black;
+    color: @black;
 }
 .textred
 {
-    color: red;
+    color: @red;
 }
 .textdred
 {
-    color: darkred;
+    color: @dred;
 }
 .textaqua
 {
-    color: aqua;
+    color: @aqua;
 }
 .textdaqua
 {
-    color: #009e7d;
+    color: @daqua;
 }
 .textdgreen
 {
-    color: darkgreen;
+    color: @dgreen;
 }
 .textlpurple
 {
-    color: #ff00ff;
+    color: @lightpurple;
 }
 .textgold
 {
-    color: #eaff29;
+    color: @gold;
 }
 .textdpurple
 {
-    color: #3a003a;
+    color: @dpurple;
 }
 .textpink
 {
-    color: pink;
+    color: @pink;
 }
 .textamblue
 {
-    color: #79f8f8;
+    color: @amblue;
 }
 .textazur1
 {
-    color: #007FFF;
+    color: @azur1;
 }
 .textazur2
 {
-    color: #1E7FCB;
+    color: @azur2;
 }
 .textlightazur
 {
-    color: #74D0F1;
+    color: @lightazur;
 }
 .textclay
 {
-    color: #EFEFEF;
+    color: @cclay;
 }
 
-/* Background - Colors */
+// Background color
 .backggray
 {
-    background: gray;
+    background: @gray;
 }
 .backgyel
 {
-    background: Yellow;  
+    background: @yellow;  
 }
 .backggreen
 {
-    background: green;
+    background: @green;
 }
 .backgwhite
 {
-    background: white;
+    background: @white;
 }
 .backgdblue
 {
-    background: darkblue;
+    background: @dblue;
 }
 .backgdgray
 {
-    background: darkgray;
+    background: @dgray;
 }
 .backgpurp
 {
-    background: purple;
+    background: @purple;
 }
 .backgbl
 {
-    background: black;
+    background: @black;
 }
 .backgred
 {
-    background: red;
+    background: @red;
 }
 .backgdred
 {
-    background: darkred;
+    background: @dred;
 }
 .backgaqua
 {
-    background: aqua;
+    background: @aqua;
 }
 .backgdaqua
 {
-    background: #009e7d;
+    background: @daqua;
 }
 .backgdgreen
 {
-    background: darkgreen;
+    background: @dgreen;
 }
 .backglpurple
 {
-    background: #ff00ff;
+    background: @lightpurple;
 }
 .backggold
 {
-    background: #eaff29;
+    background: @gold;
 }
 .backgdpurple
 {
-    background: #3a003a;
+    background: @dpurple;
 }
 .backgpink
 {
-    background: pink;
+    background: @pink;
 }
 .backgamblue
 {
-    background: #79f8f8;
+    background: @amblue;
 }
 .backgazur1
 {
-    background: #007FFF;
+    background: @azur1;
 }
 .backgazur2
 {
-    background: #1E7FCB;
+    background: @azur2;
 }
 .backglightazur
 {
-    background: #74D0F1;
+    background: @lightazur;
 }
 .backgclay
 {
-    background: #EFEFEF;
+    background: @cclay;
 }
 
-/* MENU BAR */
- /*  unfinished */
-/*
-ul.menubar
-{
-    list-style-type:none;
-    margin:0;
-    padding:0;
-}
-a:link
-{
-    display:block;
-    font-weight:bold;
-    color:#FFFFFF;
-    background-color:#98bf21;
-    width:120px;
-    text-align:center;
-    padding:4px;
-    text-decoration:none;
-    text-transform:uppercase;
-}
-a:visited
-{
-    display:block;
-    font-weight:bold;
-    color:#FFFFFF;
-    background-color:#98bf21;
-    width:120px;
-    text-align:center;
-    padding:4px;
-    text-decoration:none;
-    text-transform:uppercase;  
-}
-a:hover
-{
-    background-color:#9f9f9f;
-}
-a:active
-{
-    background-color:#848484;
-}
-*/
 
 /* MISC */
 
 #sdk
 {
-    color: gray;
+    color: @gray;
 }
 div.padding
 {
@@ -334,18 +330,33 @@ img.imgcenter
 }
 /* TEXT MISC */
 
-/* FONT - by Alan Prescott*/
-@font-face {
-    font-family: 'Clemente';
-    src: url('font/ClementePDac-ExtraLight.ttf') format('ttf');
-}
-    /* Set the police */
-h1,h2,h3,h4,h5,h6,p,a
+    // FONT - by Alan Prescott
+
+@font-face 
 {
-    font-family: 'Clemente', Arial, serif;
+    
+    font-family: @fontname;
+    src: url(@fontpath) format(@fontformat);
+    
 }
 
-/* TEXT SIZE */
+    // set the font 
+h1,h2,h3,h4,h5,h6,p,a
+{
+    font-family: @fontname, Arial, serif;
+}
+
+
+
+// Textsize : the size of text
+.text25
+{
+    font-size: 25%;
+}
+.text50
+{
+    font-size: 50%;
+}
 .text100
 {
     font-size:100%;
@@ -454,7 +465,11 @@ p.letterspace1px
 {
     display:block;
 }
+
+
 /* ID - Need to be remove */
+
+
 #letterspace5px
 {
     letter-spacing:5px;  
@@ -497,7 +512,7 @@ p.letterspace1px
 }
 
 /* Avanced text */
-.textshadowb /* Tiny textshadows */
+.textshadowb 
 {
     text-shadow: 5px 5px 5px #000;
 }
