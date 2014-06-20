@@ -5,6 +5,8 @@ CSS Commands
 .textleft
 .textright
 img.imgcenter - Center image
+.text25
+.text50
 .text100
 .text150
 .text200
