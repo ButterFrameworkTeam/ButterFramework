@@ -26,7 +26,7 @@ http://www.github.com/Serravir
 Why not contribute for ButterFramework? Just leave a feedback on ButterFramework's github!
 
 ====================
-ButterFramework is using unlicense.
+ButterFramework is under Unlicense license. For more informations, please see "LICENSE" file.
 
 Use Less.js for css compiling 
 
