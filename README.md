@@ -8,10 +8,10 @@
 ====================
 
 Butter Framework is an HTML5/CSS3 based website framework. Created by a beginner for beginners.
-So everyone can code and script. I made that more easier to do.
-You can now make your website easily.
+So everyone can code and script. I just made that more easier to do.
+You can now make your website easily!
 
-##### Full source code in 'Source' Branch 
+##### Full source code in 'Source' Branch.
 
 ButterFramework is written in HTML5, CSS and JavaScript.
 
