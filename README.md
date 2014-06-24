@@ -3,7 +3,7 @@
 
 ### A very tiny HTML5 Framework
 
-#### Let's create together
+#### Let's create together!
 
 ====================
 
@@ -28,7 +28,7 @@ Why not contribute for ButterFramework? Just leave a feedback on ButterFramework
 ====================
 ButterFramework is under Unlicense license. For more informations, please see "LICENSE" file.
 
-Use Less.js for css compiling 
+Use Less.js for css compiling.
 
 Use jQuery | MIT Licensed
 
