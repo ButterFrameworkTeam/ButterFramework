@@ -23,7 +23,7 @@ http://www.github.com/Buttershy
 Translation help and correction by Serravir.
 http://www.github.com/Serravir
 
-Why not contribute for ButterFramework? Just leave a feedback on ButterFramework's github!
+Why not contribute to ButterFramework? Just leave a feedback on ButterFramework's github!
 
 ====================
 ButterFramework is under Unlicense license. For more informations, please see "LICENSE" file.
