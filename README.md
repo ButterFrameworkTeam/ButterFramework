@@ -26,7 +26,7 @@ Why not contribute to ButterFramework? Just leave a feedback on ButterFramework'
 ====================
 ButterFramework is under Unlicense license. For more informations, please see "LICENSE" file.
 
-You will need to compile Less.js in Less.css to have ButterFramework working.
+You will need to compile bframework.less with less to have ButterFramework CSS working.
 
 Use jQuery | MIT Licensed
 
