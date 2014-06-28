@@ -9,8 +9,7 @@ You need to compile the file like 'Winless' or others
 
 // ------ Vars ------ 
 
-@defaultbackground: #FFF; // the default background
-@fontname: 'Clemente'; // The font name
+@fontname: 'BFrameworkFont'; // The font name
 @fontformat: 'ttf'; // Type of font 
 @fontpath: 'font/ClementePDac-ExtraLight.ttf'; // the path of the font
 @fontpathwoff: 'font/Sanchezregular.woff'; // the path of the font
@@ -40,15 +39,7 @@ You need to compile the file like 'Winless' or others
 @lightazur: #74D0F1; 
 @cclay: #EFEFEF; // C for color, another C for clay
 
-// Body
-
-body 
-{
-    background-color:@defaultbackground;    
-}
-
-// Butterframework nav bar
-
+// BFramework base navbar
 #bfbar > ul, #bfbar > ul li, #bfbar > ul ul {
   list-style: none;
   margin: 0;
@@ -102,7 +93,7 @@ body
 
 #bfbar > ul {
   border-top: 4px solid #262626;
-  font-family: Clemente, Arial, sans-serif; 
+  font-family: Clemente, Arial, sans-serif; // TO DO
   font-size: 17px;
   background: #1e1e1e;
   background: -moz-linear-gradient(top, #1e1e1e 0%, #040404 100%);
@@ -174,7 +165,6 @@ body
   box-shadow: 0 0px 2px 1px rgba(0, 0, 0, 0.15);
   width: 150px;
 }
-
 
 // Colors
 .textgray
@@ -358,13 +348,6 @@ body
 
 
 /* MISC */
-
-#sdk // Sdk "Use ButterFramework
-{
-    text-align: center;
-    color: @gray;
-    float: none;
-}
 div.padding // A simple padding, need a background
 {
     padding: 4px;
