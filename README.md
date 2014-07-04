@@ -16,33 +16,30 @@ ButterFramework is written in HTML5, CSS and JavaScript.
 ====================
 # FAQ
 
-<strong>Q:</strong> I have already created my site, I can always use the framework?
+<strong>Q:</strong> I have already created my website, can I still use the framework?
 <br>
-<strong>A:</strong> Yes, you can. Just add on your website the ButterFramework css ( is in bframework folder).
+<strong>A:</strong> Yes, you can. Just add ButterFramework css on your website ( located in bframework folder).
 <br><br>
-<strong>Q:</strong> Can i modify a little the framework ?
+<strong>Q:</strong> Can I modify a little the framework?
 <br>
 <strong>A:</strong> Yes
 <br><br>
-<strong>Q:</strong> Can i create my ButterFramework based Framework ?
+<strong>Q:</strong> Can I create my ButterFramework based framework?
 <br>
-<strong>A:</strong> Yes but give credit :)
+<strong>A:</strong> Yes but don't forget to give credit. :)
 <br><br>
 <strong>Q:</strong> I want to contribute to the framework.
 <br>
-<strong>A:</strong> You are on Github :) 
+<strong>A:</strong> You are on Github, go ahead! :) 
 <br><br>
-<strong>Q:</strong> Can i sell the framework ?
+<strong>Q:</strong> Can I sell the framework?
 <br>
-<strong>A:</strong> No ! Except is heavy modified.
+<strong>A:</strong> No! Except if it is heavily modified.
 <br><br>
-<strong>Q:</strong> I can remove the 'Use Butterframework' ?
+<strong>Q:</strong> Can I remove the 'Use Butterframework'?
 <br>
 <strong>A:</strong> Yep.
 <br><br>
-<strong>Q:</strong> Can i modify the framework for my website ?
-<br>
-<strong>A:</strong> Yes.
 
 ====================
 
@@ -50,7 +47,7 @@ ButterFramework is a project created/started by Buttershy.
 http://www.github.com/Buttershy | http://www.buttershy.unicorn-hosting.fr
 
 Translation help and correction by Serravir.
-(the project is created originally in french)
+(project is originally created in French)
 http://www.github.com/Serravir
 
 Why not contribute to ButterFramework? Just leave a feedback on ButterFramework's github!
