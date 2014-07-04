@@ -44,10 +44,9 @@ ButterFramework is written in HTML5, CSS3 and JavaScript.
 ====================
 
 ButterFramework is a project created/started and managed by Buttershy.<br />
-http://www.github.com/Buttershy | http://www.buttershy.unicorn-hosting.fr
-
+http://www.github.com/Buttershy | <a target="_blank" href="http://www.buttershy.unicorn-hosting.fr">http://www.buttershy.unicorn-hosting.fr</a>
 Translation help and correction by Serravir. (Project is originally in French.)<br />
-http://www.github.com/Serravir | http://www.serravir.fr
+http://www.github.com/Serravir | <a target="_blank" href="http://www.serravir.fr">http://www.serravir.fr</a>
 
 Why not contribute to ButterFramework? Just leave a feedback on ButterFramework's github!
 
