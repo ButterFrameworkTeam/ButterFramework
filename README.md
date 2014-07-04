@@ -20,7 +20,7 @@ ButterFramework is written in HTML5, CSS3 and JavaScript.
 <br>
 <strong>A:</strong> Yes, you can. Just add ButterFramework css on your website (located in bframework folder).
 <br><br>
-<strong>Q:</strong> Can I modify a little the framework?
+<strong>Q:</strong> Can I modify a little bit the framework?
 <br>
 <strong>A:</strong> Yes
 <br><br>
