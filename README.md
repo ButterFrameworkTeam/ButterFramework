@@ -34,7 +34,7 @@ ButterFramework is written in HTML5, CSS and JavaScript.
 <br><br>
 <strong>Q:</strong> Can I sell the framework?
 <br>
-<strong>A:</strong> No! Except if it is heavily modified.
+<strong>A:</strong> No! Except if is heavily modified.
 <br><br>
 <strong>Q:</strong> Can I remove the 'Use Butterframework'?
 <br>
