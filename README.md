@@ -1,3 +1,4 @@
+![alt text](http://image.noelshack.com/fichiers/2014/28/1405109768-bftest.png "ButterFramework")
 
 # ButterFramework
 
