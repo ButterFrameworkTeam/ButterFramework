@@ -6,6 +6,8 @@
 
 #### Let's create together!
 
+
+
 ====================
 
 Butter Framework is an HTML5/CSS3 based website framework. Created by a beginner for beginners.
@@ -13,6 +15,22 @@ So everyone can code and script. I just made that more easier to do.
 You can now make your website easily!
 
 ButterFramework is written in HTML5, CSS3 and JavaScript.
+
+###### BUTTERFRAMEWORK IS IN ACTIVE DEVELOPPMENT, DO NOT USE ON BIG PROJECT. IS IT FOR TESTING ONLY.
+
+===================
+## Setting up the framework
+
+First, download the [Current version](https://github.com/Buttershy/ButterFramework/archive/master.zip) of the framework.
+Drop all the content in a blank directory.<br>
+To have the full framework working you need to install a Less compiler : [Mac OS X](http://incident57.com/less/files/Less.zip) [Windows](http://winless.org/downloads/WinLess-1.8.3.msi) [Linux (x86)](https://www.amazon.com/clouddrive/share?s=c4glyJwmQ3gin6Uz5kqeK0) [Linux (x64)](http://www.amazon.com/gp/drive/share/179-0051775-1073453?ie=UTF8&s=c4glyJwmQ3gin6Uz5kqeK0) [Ubuntu (x86)](https://www.amazon.com/clouddrive/share?s=uPyHYhj3QpMmXwrmIOjU_w) [Ubuntu (x64)](https://www.amazon.com/clouddrive/share?s=AJfhBKi8Rccqn6j-2R9ctU)
+
+Once all is install run the Compiler.<br>
+Select the folder where is located the framework and click to 'Compile'.
+<br>
+If you don't have a error you can now use the Framework
+
+
 
 ====================
 # FAQ
