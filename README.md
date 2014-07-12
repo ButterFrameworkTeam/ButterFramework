@@ -49,15 +49,15 @@ If you don't have any error: Congratulations! You can now use the Framework!
 <br><br>
 <strong>Q:</strong> I want to contribute to the framework.
 <br>
-<strong>A:</strong> You are on Github, go ahead! :) 
+<strong>A:</strong> You are on Github, go ahead! 
 <br><br>
 <strong>Q:</strong> Can I sell the framework?
 <br>
-<strong>A:</strong> No! Except if is heavily modified.
+<strong>A:</strong> No! Except if is heavily modified and with authorization of ButterFramework owners.
 <br><br>
 <strong>Q:</strong> Can I remove the 'Use Butterframework'?
 <br>
-<strong>A:</strong> Yep.
+<strong>A:</strong> Of course you can. :)
 <br>
 
 ====================
