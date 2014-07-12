@@ -16,7 +16,8 @@ You can now make your website easily!
 
 ButterFramework is written in HTML5, CSS3 and JavaScript.
 
-###### BUTTERFRAMEWORK IS CURRENTLY IN ACTIVE DEVELOPPMENT, DO NOT USE IT ON BIG PROJECTS. IT IS FOR TESTING PURPOSES ONLY.
+###### BUTTERFRAMEWORK IS CURRENTLY IN ACTIVE DEVELOPPMENT, DO NOT USE IT ON BIG PROJECTS. 
+###### USE IT FOR TESTING PURPOSES ONLY.
 
 ===================
 ## Setting up the framework
@@ -27,7 +28,7 @@ To have the full framework working, you need to install a Less compiler: [Mac OS
 
 Once all is installed, run the compiler.<br>
 Select the folder where is located the framework and click on 'Compile'.
-<br /><br />
+<br />
 If you don't have any error: Congratulations! You can now use the Framework!
 
 
