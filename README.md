@@ -41,7 +41,7 @@ If you don't have any error: Congratulations! You can now use the Framework!
 <br><br>
 <strong>Q:</strong> Can I modify a little bit the framework?
 <br>
-<strong>A:</strong> Yes
+<strong>A:</strong> Yes, you can.
 <br><br>
 <strong>Q:</strong> Can I create my ButterFramework based framework?
 <br>
@@ -53,7 +53,7 @@ If you don't have any error: Congratulations! You can now use the Framework!
 <br><br>
 <strong>Q:</strong> Can I sell the framework?
 <br>
-<strong>A:</strong> No! Except if is heavily modified and with authorization of ButterFramework owners.
+<strong>A:</strong> No! Except if your version is heavily modified and with our authorization (contact us if you need).
 <br><br>
 <strong>Q:</strong> Can I remove the 'Use Butterframework'?
 <br>
