@@ -68,7 +68,7 @@ http://www.github.com/Buttershy | http://www.buttershy.unicorn-hosting.fr
 Translation help and correction by Serravir. (Project is originally in French.)<br />
 http://www.github.com/Serravir
 
-Why not contribute to ButterFramework? Just leave a feedback on ButterFramework's github!
+Why not contribute to ButterFramework? Just leave a feedback on ButterFramework's GitHub page!
 
 ====================
 ButterFramework is under MIT license. For more informations, please see "LICENSE" file.
