@@ -23,11 +23,11 @@ ButterFramework is written in HTML5, CSS3 and JavaScript.
 
 First, download the [Current version](https://github.com/Buttershy/ButterFramework/archive/master.zip) of the framework.
 Drop all the content in an empty directory.<br>
-To have the full framework working, you need to install a Less compiler : [Mac OS X](http://incident57.com/less/files/Less.zip) [Windows](http://winless.org/downloads/WinLess-1.8.3.msi) [Linux (x86)](https://www.amazon.com/clouddrive/share?s=c4glyJwmQ3gin6Uz5kqeK0) [Linux (x64)](http://www.amazon.com/gp/drive/share/179-0051775-1073453?ie=UTF8&s=c4glyJwmQ3gin6Uz5kqeK0) [Ubuntu (x86)](https://www.amazon.com/clouddrive/share?s=uPyHYhj3QpMmXwrmIOjU_w) [Ubuntu (x64)](https://www.amazon.com/clouddrive/share?s=AJfhBKi8Rccqn6j-2R9ctU)
+To have the full framework working, you need to install a Less compiler: [Mac OS X](http://incident57.com/less/files/Less.zip) [Windows](http://winless.org/downloads/WinLess-1.8.3.msi) [Linux (x86)](https://www.amazon.com/clouddrive/share?s=c4glyJwmQ3gin6Uz5kqeK0) [Linux (x64)](http://www.amazon.com/gp/drive/share/179-0051775-1073453?ie=UTF8&s=c4glyJwmQ3gin6Uz5kqeK0) [Ubuntu (x86)](https://www.amazon.com/clouddrive/share?s=uPyHYhj3QpMmXwrmIOjU_w) [Ubuntu (x64)](https://www.amazon.com/clouddrive/share?s=AJfhBKi8Rccqn6j-2R9ctU)
 
 Once all is installed, run the compiler.<br>
 Select the folder where is located the framework and click on 'Compile'.
-<br>
+<br /><br />
 If you don't have any error: Congratulations! You can now use the Framework!
 
 
