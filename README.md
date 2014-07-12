@@ -17,7 +17,7 @@ You can now make your website easily!
 ButterFramework is written in HTML5, CSS3 and JavaScript.
 
 ###### BUTTERFRAMEWORK IS CURRENTLY IN ACTIVE DEVELOPPMENT, DO NOT USE IT ON BIG PROJECTS. 
-###### USE IT FOR TESTING PURPOSES ONLY.
+###### PLEASE USE IT FOR TESTING PURPOSES ONLY.
 
 ===================
 ## Setting up the framework
