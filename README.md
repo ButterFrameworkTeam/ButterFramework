@@ -71,7 +71,7 @@ http://www.github.com/Serravir
 Why not contribute to ButterFramework? Just leave a feedback on ButterFramework's github!
 
 ====================
-ButterFramework is under Unlicense license. For more informations, please see "LICENSE" file.
+ButterFramework is under MIT license. For more informations, please see "LICENSE" file.
 
 You will need to compile bframework.less with less to have ButterFramework CSS working.
 
