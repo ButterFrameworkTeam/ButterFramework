@@ -16,6 +16,8 @@ You can now make your website easily!
 
 ButterFramework is written in HTML5, CSS3 and JavaScript.
 
+ButterFramework support (IE6+ beta) IE9+ | Firefox 20+ | Safari 9 | Firefox OS (beta support) | Chrome 28+
+
 ###### BUTTERFRAMEWORK IS CURRENTLY IN ACTIVE DEVELOPPMENT, DO NOT USE IT ON BIG PROJECTS. 
 ###### PLEASE USE IT FOR TESTING PURPOSES ONLY.
 
@@ -63,7 +65,7 @@ If you don't have any error: Congratulations! You can now use the Framework!
 ====================
 
 ButterFramework is a project created/started and managed by Buttershy.<br />
-http://www.github.com/Buttershy | http://www.buttershy.unicorn-hosting.fr
+http://www.github.com/Buttershy
 
 Translation help and correction by Serravir. (Project is originally in French.)<br />
 http://www.github.com/Serravir
