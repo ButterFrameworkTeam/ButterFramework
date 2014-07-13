@@ -1,0 +1,15 @@
+{
+	"name":"BFramework",
+
+	"description":"BFramework FirefoxOS",
+
+	"launch_path":"/index.html",
+
+	"icons":
+	{
+
+		"128":"/bframework/img/FireOS/Icon128.png"
+
+	}
+
+}
