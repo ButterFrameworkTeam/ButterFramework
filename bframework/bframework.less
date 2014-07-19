@@ -4,21 +4,29 @@ ButterFramework
 A very tiny simple framework
 
 You need to compile the file like 'Winless' or others
+
+Framework Speed: 79/100 %
+
 */
 
 
 // ------ Vars ------ 
 
+// !-!-! Base Vars !-!-!
+
+@antialiased: antialiased; // antialiased | none | ...
+
+// ------ Custom Font ------
 @fontname: 'BFrameworkFont'; // The font name
 @fontformat: 'ttf'; // Type of font 
 @fontpath: 'font/Sanchezregular.ttf'; // the path of the font
-@fontpathwoff: 'font/Sanchezregular.woff'; // the path of the font
+@fontpathwoff: 'font/Sanchezregular.woff'; // the path of the font (woff)
 @fontpathotf: 'font/Sanchezregular.otf'; // the path of the font (otf)
 
 // - Colors
 @gray: gray;
 @yellow: yellow;
-@gold: #eaff29; 
+@gold: #e6ff00; 
 @green: green;
 @dgreen: darkgreen;
 @white: white;
@@ -38,6 +46,74 @@ You need to compile the file like 'Winless' or others
 @azur2: #1E7FCB;
 @lightazur: #74D0F1; 
 @cclay: #EFEFEF; // C for color, another C for clay
+
+
+// FONT - by Daniel Hernandez
+
+@font-face 
+{
+    
+    font-family: @fontname;
+    src: url(@fontpath) format(@fontformat),
+        url(@fontpathwoff) format('woff'), // Woff font
+        url(@fontpathotf) format('otf'); // OTF Font
+    
+}
+h1,h2,h3,h4,h5,h6,p,a
+{
+    font-family: @fontname, Arial, serif;
+}
+
+// Antialiasing
+html, input, textarea, select, button 
+{
+    font-smoothing: antialiased;
+}
+
+// Button
+
+button {
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #ededed), color-stop(1, #f0f0f0) );
+	background:-moz-linear-gradient( center top, #ededed 5%, #f0f0f0 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#ededed', endColorstr='#f0f0f0');
+	background-color:#ededed;
+	border-top-left-radius:5px;
+	border-top-right-radius:5px;
+	border-bottom-right-radius:5px;
+	border-bottom-left-radius:5px;
+	text-indent:0px;
+	border:1px solid #dcdcdc;
+	display:inline-block;
+	color:#777777;
+	font-family:arial;
+	font-size:16px;
+	font-weight:bold;
+	font-style:normal;
+	height:46px;
+	line-height:46px;
+	width:112px;
+	text-decoration:none;
+	text-align:center;
+}
+button:hover {
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#f0f0f0', endColorstr='#ededed');
+	background-color:#f0f0f0;
+}
+button:active {
+	position:relative;
+	top:1px;
+}
+
+// Antialiasing After Fast Loading
+html, input, textarea, select, button 
+{
+    -o-font-smoothing: antialiased;
+    -ms-font-smoothing: antialiased;
+    -xv-font-smoothing: antialiased;
+    -khtml-font-smoothing: antialiased;
+    -moz-font-smoothing: antialiased;
+    -webkit-font-smoothing: antialiased;
+}
 
 // BFramework base navbar
 #bfbar > ul, #bfbar > ul li, #bfbar > ul ul {
@@ -442,26 +518,6 @@ img.imgcenter
     margin-left: auto;
     margin-right: auto;
 }
-/* TEXT MISC */
-
-// FONT - by Daniel Hernandez
-
-@font-face 
-{
-    
-    font-family: @fontname;
-    src: url(@fontpath) format(@fontformat),
-        url(@fontpathwoff) format('woff'),
-        url(@fontpathotf) format('otf');
-    
-}
-
-// set the font 
-h1,h2,h3,h4,h5,h6,p,a
-{
-    font-family: @fontname, Arial, serif;
-}
-
 
 
 // Textsize : the size of text
@@ -518,7 +574,7 @@ a.textdnone
 // Uppercase/Downcase/...
 .textupperc
 {
-    text-transform:uppercase;
+    text-transform: uppercase;
 }
 .textdownc
 {
@@ -635,45 +691,9 @@ p.letterspace1px
     text-shadow: 5px 5px 5px #000;
 }
 
-// Button
-
-
-button {
-	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #ededed), color-stop(1, #f0f0f0) );
-	background:-moz-linear-gradient( center top, #ededed 5%, #f0f0f0 100% );
-	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#ededed', endColorstr='#f0f0f0');
-	background-color:#ededed;
-	border-top-left-radius:5px;
-	border-top-right-radius:5px;
-	border-bottom-right-radius:5px;
-	border-bottom-left-radius:5px;
-	text-indent:0px;
-	border:1px solid #dcdcdc;
-	display:inline-block;
-	color:#777777;
-	font-family:arial;
-	font-size:16px;
-	font-weight:bold;
-	font-style:normal;
-	height:46px;
-	line-height:46px;
-	width:112px;
-	text-decoration:none;
-	text-align:center;
-}
-button:hover {
-	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#f0f0f0', endColorstr='#ededed');
-	background-color:#f0f0f0;
-}
-button:active {
-	position:relative;
-	top:1px;
-}
-
-// Antialiasing
+// Antialiasing After Fast Loading
 html, input, textarea, select, button 
 {
-    font-smoothing: antialiased;
     -o-font-smoothing: antialiased;
     -ms-font-smoothing: antialiased;
     -xv-font-smoothing: antialiased;
