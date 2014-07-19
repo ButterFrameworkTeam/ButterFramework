@@ -18,6 +18,7 @@ DEL /f index.html
 DEL /f about.html
 DEL /f *.html
 DEL /f *.css
+del /f manifest.webapp
 cls
 echo -=-=-=-=-=-=-=-=-=-=-
 echo =====================
