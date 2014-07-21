@@ -1,0 +1,48 @@
+ /*
+ButterFramework
+
+A very tiny simple framework
+
+You need to compile the file like 'Winless' or others
+
+MIT License
+*/
+
+
+button {
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #ededed), color-stop(1, #f0f0f0) );
+	background:-moz-linear-gradient( center top, #ededed 5%, #f0f0f0 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#ededed', endColorstr='#f0f0f0');
+	background-color:#ededed;
+	border-top-left-radius:5px;
+	border-top-right-radius:5px;
+	border-bottom-right-radius:5px;
+	border-bottom-left-radius:5px;
+	text-indent:0px;
+	border:1px solid #dcdcdc;
+	display:inline-block;
+	color:#777777;
+	font-family:arial;
+	font-size:16px;
+	font-weight:bold;
+	font-style:normal;
+	height:46px;
+	line-height:46px;
+	width:112px;
+	text-decoration:none;
+	text-align:center;
+}
+button:hover {
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#f0f0f0', endColorstr='#ededed');
+	background-color:#f0f0f0;
+}
+button:active {
+	position:relative;
+	top:1px;
+}
+
+
+button 
+{
+    -webkit-appearance: button; //Fix Bug to webkit
+}
