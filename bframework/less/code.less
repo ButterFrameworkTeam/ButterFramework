@@ -8,17 +8,24 @@ You need to compile the file like 'Winless' or others
 MIT License
 */
 
+
+
 code 
 {
     background-color: #333;
-    font-style: normal;
-    border-radius: 5px;
-    color: white;
-    padding: 5px 15px;
+    font-size: 95%;
+    color: white; // Glitchy 
+    padding: 2px 4px;
+    
+    .border-radius(2px);
+    
+    code.block {// For code in block
+        
+        word-break: break-all;
+        word-wrap: break-word;
+        
+        .border-radius(0px);
+        
+    }   
 }
 
-code.block // For code in block
-{
-    word-break: break-all;
-    word-wrap: break-word;
-}

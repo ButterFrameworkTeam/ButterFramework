@@ -11,16 +11,17 @@ You need to compile the file like 'Winless' or others
 
 // ButterFramework Core imports
 
-@import 'colors';
-@import 'text';
-@import 'button';
-@import 'table';
-@import 'font';
-@import 'float';
-@import 'navbar';
-@import 'style';
-@import 'display';
-@import 'code';
+@import '/less/colors'; // Colors
+@import '/less/text'; // Text
+@import '/less/button'; // Buttons
+@import '/less/table'; // Table
+@import '/less/font'; // Font, This can be removed
+@import '/less/float'; // Float
+@import '/less/navbar'; // Navigation bar is here
+@import '/less/style'; // Misc
+@import '/less/display'; 
+@import '/less/code'; // For 'Code' Tag
+@import '/less/utils'; // Some functions
 
 
 // ------ Vars ------ 
@@ -28,13 +29,6 @@ You need to compile the file like 'Winless' or others
 // !-!-! Base Vars !-!-!
 
 @antialiased: antialiased; // antialiased | none | ...
-
-// ------ Custom Font ------
-@fontname: 'BFrameworkFont'; // The font name
-@fontformat: 'ttf'; // Type of font 
-@fontpath: 'font/Sanchezregular.ttf'; // the path of the font
-@fontpathwoff: 'font/Sanchezregular.woff'; // the path of the font (woff)
-@fontpathotf: 'font/Sanchezregular.otf'; // the path of the font (otf)
 
 // - Colors
 @gray: gray;

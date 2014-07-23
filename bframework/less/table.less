@@ -9,42 +9,37 @@ MIT License
 */
 
 /* Table ===================================================================================================*/
-div.containertab
-{
-    width:100%;
-    margin:0px;
-    border:1px solid gray;
-    line-height:150%;
+// -------- Vars --------
+@color-td: #ddd;
+
+// Started new table system
+
+table{
+    background-color: white;
+    border-collapse: collapse;
 }
-div.headertab
-{
-    padding:0.5em;
-    color:white;
-    background-color:gray;
-    clear:left;
+
+.table{
+            
+    width: 100%;
+    max-width: 100%;
+    
+}  
+
+caption{ // Caption
+    font-size: 105%;
+    text-align: left;
 }
-div.footertab
-{
-    padding:0.5em;
-    color:white;
-    background-color:gray;
-    clear:left;
+
+td,tr{
+    position: static;
+    border: 1px dashed @color-td;
+    text-align: left;
+
 }
-h1.headertab
-{
-    padding:0;
-    margin:0;
-}
-div.tablefttab
-{
-    float:left;
-    width:160px;
-    margin:0;
-    padding:1em;
-}
-div.contenttab
-{
-    margin-left:190px;
-    border-left:1px solid gray;
-    padding:1em;
+
+// ------------------------
+table,td,th{
+    position: static;
+    float: none;    
 }

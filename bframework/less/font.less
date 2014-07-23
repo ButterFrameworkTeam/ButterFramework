@@ -8,35 +8,20 @@ You need to compile the file like 'Winless' or others
 MIT License
 */
 
-// FONT - by Daniel Hernandez 
-
-// Set the font
-
-@font-face 
-{
-    
-    font-family: @fontname;
-    
-    src: url(@fontpath) format(@fontformat),
-        url(@fontpathwoff) format('woff'), // Woff font
-        url(@fontpathotf) format('otf'); // OTF Font
-    
-}
+// Custom Font removed
 
 // Apply The font
-h1,h2,h3,h4,h5,h6,p,a,code//,*
+h1,h2,h3,h4,h5,h6,p,a,code,button//,*
 {
-    font-family: @fontname, Arial, serif;
+    font-family: Arial, sans-serif;
 }
 
 // set the Antialiasing 
-html, input, textarea, select, button 
+html, input, textarea, select, button,code 
 {
     font-smoothing: antialiased;
     -o-font-smoothing: antialiased;
     -ms-font-smoothing: antialiased;
-    -xv-font-smoothing: antialiased;
-    -khtml-font-smoothing: antialiased;
     -moz-font-smoothing: antialiased;
     -webkit-font-smoothing: antialiased;
 }
