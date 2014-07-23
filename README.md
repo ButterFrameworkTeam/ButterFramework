@@ -16,9 +16,9 @@ You can now make your website easily!
 
 ButterFramework is written in HTML5, CSS3 and JavaScript.
 
-ButterFramework is supported by (IE6+ beta) IE9+ | Firefox 20+ | Safari 9 | Firefox OS (beta support) | Chrome 28+
+ButterFramework supports (IE6+ beta) IE9+ | Firefox 20+ | Safari 9 | Firefox OS (beta support) | Chrome 28+
 
-###### BUTTERFRAMEWORK IS CURRENTLY IN ACTIVE DEVELOPPMENT, DO NOT USE IT ON BIG PROJECTS. 
+###### BUTTERFRAMEWORK IS CURRENTLY IN ACTIVE DEVELOPPMENT, DO NOT USE IT ON HUGE PROJECTS. 
 ###### PLEASE USE IT FOR TESTING PURPOSES ONLY.
 
 ===================
