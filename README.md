@@ -73,7 +73,8 @@ http://www.github.com/Serravir
 Why not contribute to ButterFramework? Just leave a feedback on its GitHub page!
 
 ====================
-ButterFramework is under MIT license. For more informations, please see "LICENSE" file.
+ButterFramework is under MIT license. For more informations, please see "LICENSE" file. 
+The ButterFramework Logo is in [Creative Commons Attribution-ShareAlike 4.0 International](http://creativecommons.org/licenses/by-sa/4.0/)
 
 You will need to compile bframework.less with less to have ButterFramework CSS working.
 
