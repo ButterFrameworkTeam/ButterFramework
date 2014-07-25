@@ -8,37 +8,36 @@ You need to compile the file like 'Winless' or others
 MIT License
 */
 
-/* Table ===================================================================================================*/
-// -------- Vars --------
-@color-td: #ddd;
-
-// Started new table system
+/* Table ================*/
 
 table{
     background-color: white;
     border-collapse: collapse;
 }
 
-.table{
+table.table{
             
     width: 100%;
     max-width: 100%;
     
 }  
 
-caption{ // Caption
+// --------------------
+// Caption of table
+caption{ 
     font-size: 105%;
     text-align: left;
 }
 
-td,tr{
+// -----------------------------------------
+// Set the position and style
+table.td,table.tr{
     position: static;
-    border: 1px dashed @color-td;
+    border: @table-border-size @table-set-style @table-td-color;
     text-align: left;
 
 }
 
-// ------------------------
 table,td,th{
     position: static;
     float: none;    

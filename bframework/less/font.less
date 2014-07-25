@@ -8,21 +8,38 @@ You need to compile the file like 'Winless' or others
 MIT License
 */
 
-// Custom Font removed
-
-// Apply The font
+// set the font
 h1,h2,h3,h4,h5,h6,p,a,code,button//,*
 {
     font-family: Arial, sans-serif;
 }
 
+// -------------------------
+// Font size
+
+h2{
+    font-size: @h2-size;
+}
+h3{
+    font-size: @h3-size;
+}
+h4{
+    font-size: @h4-size;
+}
+h5{
+    font-size: @h5-size;
+}
+h6{
+    font-size: @h6-size;
+}
+
 // set the Antialiasing 
 html, input, textarea, select, button,code 
 {
-    font-smoothing: antialiased;
-    -o-font-smoothing: antialiased;
-    -ms-font-smoothing: antialiased;
-    -moz-font-smoothing: antialiased;
-    -webkit-font-smoothing: antialiased;
+    font-smoothing: @text-set-antialiasing;
+    -o-font-smoothing: @text-set-antialiasing;
+    -ms-font-smoothing: @text-set-antialiasing;
+    -moz-font-smoothing: @text-set-antialiasing;
+    -webkit-font-smoothing: @text-set-antialiasing;
 }
 

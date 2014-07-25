@@ -23,14 +23,27 @@ You need to compile the file like 'Winless' or others
 @import '/less/code'; // For 'Code' Tag
 @import '/less/utils'; // Some functions
 
+// ------------------------------------------
+// ---- Framework customisable variables ----
+// ------------------------------------------
 
-// ------ Vars ------ 
 
-// !-!-! Base Vars !-!-!
+// ---------------------------------------
+// Custom font size
 
-@antialiased: antialiased; // antialiased | none | ...
+@h2-size: 22px; //h2 , default: 22px
+@h3-size: 20px; //h3 , default: 20px
+@h4-size: 18px; //h4 , default: 18px
+@h5-size: 16px; //h5 , default: 16px
+@h6-size: 14px; //h6 , default: 14px
 
-// - Colors
+//-----------------------------------------
+// Text antialiasing
+@text-set-antialiasing: antialiased; // antialiased | none | ...
+
+//------------------------------------------
+// Colors
+
 @gray: gray;
 @yellow: yellow;
 @gold: #e6ff00; 
@@ -53,4 +66,30 @@ You need to compile the file like 'Winless' or others
 @azur2: #1E7FCB;
 @lightazur: #74D0F1; 
 @cclay: #EFEFEF; // C for color, another C for clay
+
+// ----------------------------------------
+// Table
+
+@table-border-size: 1px; // border size
+@table-set-style: dotted; // Set type of border
+@table-td-color: #ddd; // Color of the border
+
+//------------------------------------------
+// Navbar
+
+@navbar-number-of-content: 2; // The defaut: 2
+/*
+Var @navbar-number-of-content
+
+For mobile version : Add or remove for adding or removing a line
+1 line: @navbar-number-of-content: 1;
+2 line: @navbar-number-of-content: 2;
+3 line: @navbar-number-of-content: 3;
+4 line: @navbar-number-of-content: 4;
+...
+
+
+*/
+
+
 
