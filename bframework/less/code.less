@@ -12,20 +12,46 @@ MIT License
 
 code 
 {
-    background-color: #333;
+    display: block;
+    background-color: @code-background;
     font-size: 95%;
-    color: white; // Glitchy 
+    color: @code-color;
     padding: 2px 4px;
+    .border-radius(2px); // set border radius fo the padding to 2pixels
     
-    .border-radius(2px);
-    
-    code.block {// For code in block
-        
+    &.block 
+    {// For code in block
         word-break: break-all;
         word-wrap: break-word;
-        
         .border-radius(0px);
         
     }   
 }
 
+pre
+{
+    display: block;
+    font-size: 90%;
+    
+    &.code
+    {
+        white-space: pre-wrap;
+        background-color: transparent;
+        .border-radius(0px);
+    }
+}
+
+kbd
+{
+    display: block;
+    box-shadow: inset 1px 1px 5px 0px #656565;
+    -moz-box-shadow: 1px 1px 5px 0px #656565;
+    -webkit-box-shadow: 1px 1px 5px 0px #656565;
+    -o-box-shadow: 1px 1px 5px 0px #656565;
+    
+    &.kbd
+    {
+        box-shadow: none;
+    }
+        
+}

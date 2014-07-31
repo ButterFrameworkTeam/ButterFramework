@@ -1,0 +1,23 @@
+/*
+ButterFramework
+
+A very tiny simple framework
+
+You need to compile the file like 'Winless' or others
+
+MIT License
+*/
+/* MISC =============================================================================================*/
+div.padding {
+  padding: 4px;
+  border-radius: 25px;
+}
+/* LIST */
+.liststylenone {
+  list-style-type: none;
+}
+img.imgcenter {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}

@@ -1,0 +1,77 @@
+/*
+ButterFramework
+
+A very tiny simple framework
+
+You need to compile the file like 'Winless' or others
+
+MIT License
+*/
+.bfnavbar nav {
+  background: #666;
+  font-size: 1.143em;
+  height: 40px;
+  line-height: 30px;
+  margin: 0 auto 30px auto;
+  text-align: center;
+}
+.bfnavbar nav.ul {
+  list-style: none;
+  margin: 0 auto;
+}
+.bfnavbar nav ul li {
+  float: left;
+  display: inline;
+}
+.bfnavbar nav a:link,
+.bfnavbar nav a:visited {
+  color: #fff;
+  display: inline-block;
+  height: 30px;
+  padding: 5px 23px;
+  text-decoration: none;
+}
+.bfnavbar nav a:hover,
+bfnavbar nav a:active,
+.bfnavbar nav .active a:link,
+.bfnavbar nav .active a:visited {
+  background: #868686;
+  color: #fff;
+}
+@media only screen and (min-width: 150px) and (max-width: 690px) {
+  .bfnavbar nav {
+    background: #585858;
+    font-size: 1.143em;
+    height: 80px;
+    line-height: 30px;
+    margin-bottom: 0;
+  }
+  .bfnavbar nav ul {
+    list-style: none;
+    margin: 0 auto;
+    padding-left: 0;
+  }
+  .bfnavbar nav li {
+    margin-left: 0 auto;
+    width: 100%;
+  }
+  .bfnavbar nav a:link,
+  .bfnavbar nav a:visited {
+    color: #FFF;
+    display: block;
+    height: 30px;
+    padding: 5px 0;
+    text-decoration: none;
+  }
+  .bfnavbar nav a:active,
+  .bfnavbar nav .active a:link,
+  .bfnavbar nav .active a:visited {
+    background: #868686;
+    color: #fff;
+  }
+  img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 3%;
+  }
+}

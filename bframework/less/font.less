@@ -9,7 +9,7 @@ MIT License
 */
 
 // set the font
-h1,h2,h3,h4,h5,h6,p,a,code,button//,*
+h1,h2,h3,h4,h5,h6,p,a,code,pre,kbd,button//,*
 {
     font-family: Arial, sans-serif;
 }
@@ -34,12 +34,9 @@ h6{
 }
 
 // set the Antialiasing 
-html, input, textarea, select, button,code 
+html, input, textarea, select, button,code, pre 
 {
-    font-smoothing: @text-set-antialiasing;
-    -o-font-smoothing: @text-set-antialiasing;
-    -ms-font-smoothing: @text-set-antialiasing;
-    -moz-font-smoothing: @text-set-antialiasing;
-    -webkit-font-smoothing: @text-set-antialiasing;
+    text-shadow: 1px 1px 1px rgba(0,0,0,0.005); // Font smooth hack
+    -webkit-font-smoothing: @text-set-antialiasing; // Font smoothing for webkit navigators
 }
 
