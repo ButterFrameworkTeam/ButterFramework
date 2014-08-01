@@ -5,31 +5,19 @@ A very tiny simple framework
 
 You need to compile the file like 'Winless' or others
 
-§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§
-!Compile only this file for create the BFramework CSS!
-§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§
-
+MIT license
 */
-
-// ------ Imports ------
-
-// ButterFramework Core imports
-
-@import '/less/colors'; // Colors
-@import '/less/text'; // Text
-@import '/less/button'; // Buttons
-@import '/less/table'; // Table
-@import '/less/font'; // Font, This can be removed
-@import '/less/float'; // Float
-@import '/less/navbar'; // Navigation bar is here
-@import '/less/style'; // Misc
-@import '/less/display'; 
-@import '/less/code'; // For 'Code' Tag
-@import '/less/utils'; // Some functions
-
 // ------------------------------------------
 // ---- Framework customisable variables ----
 // ------------------------------------------
+
+// Config file
+
+
+// ---------------------------------------
+// Police
+
+@framework-police: Arial, sans-serif;
 
 
 // ---------------------------------------
@@ -43,7 +31,8 @@ You need to compile the file like 'Winless' or others
 
 //-----------------------------------------
 // Text antialiasing
-@text-set-antialiasing: antialiased; // antialiased | none | subpixel-antialiased
+
+@text-set-antialiasing: antialiased; // Vars : antialiased | none | subpixel-antialiased
 
 //------------------------------------------
 // Colors
@@ -89,14 +78,8 @@ You need to compile the file like 'Winless' or others
 @navbar-number-of-content: 2; // The defaut: 2
 /*
 Var @navbar-number-of-content
-
 For mobile version : Add or remove for adding or removing a line
 1 line: @navbar-number-of-content: 1;
 2 line: @navbar-number-of-content: 2;
 3 line: @navbar-number-of-content: 3;
-4 line: @navbar-number-of-content: 4;
-
-*/
-
-
-
+4 line: @navbar-number-of-content: 4;*/
