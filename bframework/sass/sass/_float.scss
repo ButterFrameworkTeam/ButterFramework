@@ -3,23 +3,22 @@ ButterFramework
 
 A very tiny simple framework
 
-You need to compile the file like 'Winless' or others
-
-MIT License
+MIT license
+2014
 */
 
 /* Float ===============================================================================================*/
 .floatright // Float to right
 {
-    .float(right);
+    @include float(right);
 }
 .floatleft // Float to left
 {
-    .float(left);
+    @include float(left);
 }
 .floatnone // None 
 {
-    .float(none);
+    @include float(none);
 }
 // Outline
 .outlinestylenone

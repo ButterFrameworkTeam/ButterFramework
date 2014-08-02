@@ -3,38 +3,49 @@ ButterFramework
 
 A very tiny simple framework
 
-You need to compile the file like 'Winless' or others
-
-MIT License
+MIT license
+2014
 */
 
 /* Table ================*/
 
-table{
+table
+{
     background-color: white;
-    border-collapse: collapse;
 }
 
-table.table{
-            
+table
+{
+    table
+    {
+    border-collapse: collapse;        
     width: 100%;
     max-width: 100%;
     
+    }
 }  
 
 // --------------------
 // Caption of table
-caption{ 
+caption
+{ 
     font-size: 105%;
     text-align: left;
 }
 
 // -----------------------------------------
 // Set the position and style
-table.td,table.tr{
+table
+{
+    
+    tr,td
+    {
+        
     position: static;
-    border: @table-border-size @table-set-style @table-td-color;
+    border: $table-border-size $table-set-style $table-td-color;
     text-align: left;
+        
+    }
 
 }
 

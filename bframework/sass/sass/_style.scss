@@ -3,16 +3,18 @@ ButterFramework
 
 A very tiny simple framework
 
-You need to compile the file like 'Winless' or others
-
-MIT License
+MIT license
+2014
 */
 
-/* MISC =============================================================================================*/
-div.padding // A simple padding, need a background
+// Some 
+div
 {
+    padding // A simple padding, need a background
+    {
     padding: 4px;
     border-radius: 25px;
+    }
 }
 /* LIST */
 .liststylenone // List style
@@ -23,9 +25,13 @@ div.padding // A simple padding, need a background
 //-------------------------
 // imgcenter Center Image
 
-img.imgcenter
+img
 {
+    imgcenter
+    {
     display: block;
     margin-left: auto;
     margin-right: auto;
+    }
+    
 }

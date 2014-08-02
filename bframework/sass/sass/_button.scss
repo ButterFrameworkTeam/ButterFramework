@@ -1,0 +1,38 @@
+ /*
+ButterFramework
+
+A very tiny simple framework
+
+MIT license
+2014
+*/
+
+
+button {
+    
+    button
+    {
+        display: block;
+        padding: .9em 1em;
+        font: 1em;
+        text-decoration: none;
+        background: steelblue;
+        color: white;
+        border: none;
+        
+        // Mixins
+        @include border-radius(5px);
+        @include box-shadow(1px 1px 2px silver);
+    
+        -webkit-appearance: button; // Fix to Safari
+            
+    
+            :hover 
+            { // When mouse is over
+            
+                cursor: pointer;
+                background-color: #4576a0;
+            }
+    
+    }        
+}

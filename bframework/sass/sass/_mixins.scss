@@ -1,0 +1,59 @@
+ /*
+ButterFramework
+
+A very tiny simple framework
+
+MIT license
+2014
+*/
+
+// ----------------
+// Clearfix
+
+@mixin clearfix 
+{ // micro clearfix hack
+  zoom: 1;
+  &:before, &:after { content: ""; display: table; }
+  &:after { clear: both; }
+}
+
+// ---------------
+// Border box
+// By Paul Irish
+
+@mixin border-box 
+{ // border-box mixin
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+// --------------
+// Border-radius
+@mixin border-radius ($b-radius) {
+    
+    border-radius: $b-radius;
+    -moz-border-radius: $b-radius;
+    -webkit-border-radius: $b-radius;
+    -o-border-radius: $b-radius;
+    
+}
+
+// ----------------
+// Float
+@mixin float($float-type) {
+    
+    float: $float-type;
+    
+}
+
+// ----------------
+// BoxShadow
+@mixin box-shadow($box-shadow){
+    
+    box-shadow: $box-shadow;
+    -moz-box-shadow: $box-shadow;
+    -webkit-box-shadow: $box-shadow;
+    -o-box-shadow: $box-shadow;
+    
+}

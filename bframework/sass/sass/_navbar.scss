@@ -3,13 +3,15 @@ ButterFramework
 
 A very tiny simple framework
 
-You need to compile the file like 'Winless' or others
-
-MIT License
+MIT license
+2014
 */
 // ===========================================
 // BFramework navbar
-.bfnavbar nav {
+.bfnavbar 
+{
+    nav 
+    {
     
 	background: #666;
 	font-size: 1.143em;
@@ -17,9 +19,9 @@ MIT License
 	line-height: 30px;
 	margin: 0 auto 30px auto;
 	text-align: center;
+    }
     
-    
-    &.ul { // Dont make °
+    ul { // Dont make °
 	       list-style: none; 
 	       margin: 0 auto;
     }
@@ -44,7 +46,7 @@ MIT License
 bfnavbar nav a:active,
 .bfnavbar nav .active a:link, // if 'a' is selected with .active
 .bfnavbar nav .active a:visited {
-	background: #868686;
+	background: #4b7dbc;
 	color: #fff;
 }
 
@@ -55,9 +57,9 @@ bfnavbar nav a:active,
 @media only screen and (min-width : 150px) and (max-width : 690px)
 {
     .bfnavbar nav {
-		background: #585858;
+		background: #4b7dbc;
 		font-size: 1.143em;
-		height: 40px*@navbar-number-of-content; // Height of the thing
+		height: 40px*$navbar-number-of-content; // Height of the thing
 		line-height: 30px;
 		margin-bottom: 0;
 	}

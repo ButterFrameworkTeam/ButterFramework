@@ -3,16 +3,15 @@ ButterFramework
 
 A very tiny simple framework
 
-You need to compile the file like 'Winless' or others
-
-MIT License
+MIT license
+2014
 */
 
 // ----------------------------
 // Set the font
 code, pre, kbd
 {
-    font-family: @framework-police;
+    font-family: $framework-police;
 }
 
 
@@ -20,17 +19,17 @@ code, pre, kbd
 // Code
 code 
 {
-    background-color: @code-background;
+    background-color: $code-background;
     font-size: 95%;
-    color: @code-color;
+    color: $code-color;
     padding: 2px 4px;
-    .border-radius(2px); // set border radius fo the padding to 2pixels
+    @include border-radius(2px); // set border radius fo the padding to 2pixels
     
     &.block 
     {// For code in block
         word-break: break-all;
         word-wrap: break-word;
-        .border-radius(0px);
+        @include border-radius(0px);
         
     }   
 }
@@ -43,13 +42,13 @@ pre
     {
         white-space: pre-wrap;
         background-color: transparent;
-        .border-radius(0px);
+        @include border-radius(0px);
     }
 }
 
 kbd
 {    
-    .box-shadow(1px 1px 5px 0px #656565); // Box shadow
+    @include box-shadow(1px 1px 5px 0px #656565); // Box shadow
     
     &.kbd
     {
