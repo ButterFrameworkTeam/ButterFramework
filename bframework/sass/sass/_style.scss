@@ -16,11 +16,18 @@ MIT license
 // imgcenter Center Image
 // Simple 
 
-img.imgcenter
+img
 {
+    max-width: 100%; // For responsive webdesign
     height: auto;
-    width: auto;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-}    
+    
+    &.imgcenter
+    {
+        
+        width: auto;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        
+    }  
+}
