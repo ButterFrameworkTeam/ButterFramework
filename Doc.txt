@@ -25,31 +25,13 @@ img.imgcenter - Center image
 .vnone
 displayinline.li - "li" display in line 
 .liststylenone
-a.textdnone - "A" have no decoration 
-div.containertab
-div.headertab
-div.footertab
-h1.headertab
-div.tablefttab
-div.contenttab
-div.padding - Simple padding, need background "  back'x'  "
+a.textdnone - "A" tag have no decoration 
 .letterspace5px - Letterspacing
 .letterspace4px - Letterspacing
 .letterspace3px - Letterspacing
 .letterspace2px - Letterspacing
 .letterspace1px - Letterspacing
 .wordbreak - WordBreak
-#letterspace5px - Letterspacing
-#letterspace4px - Letterspacing
-#letterspace3px - Letterspacing
-#letterspace2px - Letterspacing
-#letterspace1px - Letterspacing
-#displayblock 
-#vhidden
-#vnone 
-#displayinline
-#displayblock 
-#textshadowb
 .outlinestylenone
 ------------------
 Float
