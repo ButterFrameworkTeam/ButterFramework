@@ -4,12 +4,23 @@
 	"description":"BFramework FirefoxOS",
 
 	"launch_path":"/index.html",
+	
+	"fullscreen": "false",
 
 	"icons":
 	{
 
 		"128":"/bframework/img/FireOS/Icon128.png"
 
-	}
+	},
+	
+	"developer": 
+	{
+	
+    	"name": "Votre nom ou celle de votre organisation",
+    	"url": "http://Your-website.org"
+  	},
+  
+  	"default_locale": "en"
 
 }
