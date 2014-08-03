@@ -11,7 +11,7 @@ MIT license
 
 $max-width:       1000px; // set page max-width
 $column-width:    15%;    // set column width
-$gutter-width:    2%;     // set gutter width
+$gutter-width:    2%;      // set gutter width
 $maximum-columns: 6;      // set max number of columns
 
 @function columns($columns, $container-columns: $maximum-columns) {
@@ -45,7 +45,7 @@ $maximum-columns: 6;      // set max number of columns
   }
 }
 
-// calculate offset amounts for offset columns =================================================== /
+// calculate offset amounts for offset columns 
 @function offset-columns($columns) {
   $margin: $columns * $column-width + $columns * $gutter-width;
   @return $margin;

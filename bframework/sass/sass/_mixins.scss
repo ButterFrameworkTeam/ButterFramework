@@ -8,13 +8,21 @@ MIT license
 */
 
 // ----------------
-// Clearfix
+// Clearfix (Bourbon.io)
 
 @mixin clearfix 
 { // micro clearfix hack
   zoom: 1;
-  &:before, &:after { content: ""; display: table; }
-  &:after { clear: both; }
+  &:before, &:after
+    { 
+        content: ""; 
+        display: table; 
+    }
+    
+  &:after 
+    { 
+      clear: both; 
+    }
 }
 
 // ---------------
@@ -22,16 +30,18 @@ MIT license
 // By Paul Irish
 
 @mixin border-box 
-{ // border-box mixin
-  -webkit-box-sizing: border-box;
-     -moz-box-sizing: border-box;
-          box-sizing: border-box;
+{ 
+    box-sizing: border-box; // Opera, IE8+
+    -webkit-box-sizing: border-box; // Webkit (Chrome, Safari, other webkit)
+     -moz-box-sizing: border-box; // Firefox 
 }
 
 // --------------
 // Border-radius
-@mixin border-radius ($b-radius) {
-    
+
+@mixin border-radius ($b-radius) 
+{
+ // Min   
     border-radius: $b-radius;
     -moz-border-radius: $b-radius;
     -webkit-border-radius: $b-radius;
@@ -41,19 +51,22 @@ MIT license
 
 // ----------------
 // Float
-@mixin float($float-type) {
-    
+
+@mixin float($float-type) 
+{
+    // Float
     float: $float-type;
     
 }
 
 // ----------------
 // BoxShadow
-@mixin box-shadow($box-shadow){
+@mixin box-shadow($box-shadow)
+{
     
-    box-shadow: $box-shadow;
-    -moz-box-shadow: $box-shadow;
-    -webkit-box-shadow: $box-shadow;
-    -o-box-shadow: $box-shadow;
+    box-shadow: $box-shadow; // Other
+    -moz-box-shadow: $box-shadow; // Firefox
+    -webkit-box-shadow: $box-shadow; // Webkit (Chrome, Safari, other webkit)
+    -o-box-shadow: $box-shadow; // Opera
     
 }

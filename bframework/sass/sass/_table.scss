@@ -7,49 +7,40 @@ MIT license
 2014
 */
 
-/* Table ================*/
+// -----------------------
+// Table 
 
 table
-{
-    background-color: white;
+{ // set no border 
+    border-collapse: collapse; // No border
 }
 
-table
+td // Set the border
 {
-    table
-    {
-    border-collapse: collapse;        
-    width: 100%;
-    max-width: 100%;
-    
-    }
-}  
+    border: $table-border-size $table-set-style $table-td-color;
+}
+// -----------------------
+// Conf some stuff
+
+td, th
+{
+    display: table-cell;
+    vertical-align: inherit;
+    border-top: 0;
+    text-transform: none;
+    text-align: left;
+}
 
 // --------------------
-// Caption of table
-caption
-{ 
-    font-size: 105%;
-    text-align: left;
-}
+// Table class
 
-// -----------------------------------------
-// Set the position and style
-table
+.table // Table in full page
 {
-    
-    tr,td
-    {
-        
-    position: static;
-    border: $table-border-size $table-set-style $table-td-color;
-    text-align: left;
-        
-    }
-
+    width: 100%;
+    max-width: 100%;
 }
 
-table,td,th{
-    position: static;
-    float: none;    
+caption // Set the 'caption' text
+{
+    text-align: left;
 }

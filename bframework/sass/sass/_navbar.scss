@@ -44,7 +44,7 @@ MIT license
 
 .bfnavbar nav a:hover, // When mouse is over 
 bfnavbar nav a:active,
-.bfnavbar nav .active a:link, // if 'a' is selected with .active
+.bfnavbar nav .active a:link, // if 'a' is selected with active class
 .bfnavbar nav .active a:visited {
 	background: #4b7dbc;
 	color: #fff;
@@ -57,7 +57,7 @@ bfnavbar nav a:active,
 @media only screen and (min-width : 150px) and (max-width : 690px)
 {
     .bfnavbar nav {
-		background: #4b7dbc;
+		background: #666;
 		font-size: 1.143em;
 		height: 40px*$navbar-number-of-content; // Height of the thing
 		line-height: 30px;
@@ -87,7 +87,7 @@ bfnavbar nav a:active,
 	.bfnavbar nav a:active,
     .bfnavbar nav .active a:link,
     .bfnavbar nav .active a:visited {
-		background: #868686;
+		background: #4b7dbc;;
 		color: #fff;
 	}
 }
