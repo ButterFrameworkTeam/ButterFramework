@@ -6,12 +6,15 @@ A very tiny simple framework
 MIT license
 2014
 */
+
 // ------------------------------------------
 // ---- Framework customisable variables ----
 // ------------------------------------------
 
+
 // ---------------------------------------
 // Police
+//------------------------------------------
 
 $framework-police: Arial;
 $framework-font-family: sans-serif;
@@ -19,6 +22,7 @@ $framework-font-family: sans-serif;
 
 // ---------------------------------------
 // Custom font size
+//------------------------------------------
 
 $h2-size: 1.375em; //h2 , default: 22px
 $h3-size: 1.25em; //h3 , default: 20px
@@ -28,11 +32,14 @@ $h6-size: 0.875em; //h6 , default: 14px
 
 //-----------------------------------------
 // Text antialiasing
+//------------------------------------------
 
 $text-set-antialiasing: antialiased; // Vars : antialiased | none | subpixel-antialiased
+                                    // For Safari, Chrome, other webkit
 
 //------------------------------------------
 // Colors
+//------------------------------------------
 
 $gray: gray;
 $yellow: yellow;
@@ -58,12 +65,21 @@ $lightazur: #74D0F1;
 $cclay: #EFEFEF; // C for color, another C for clay
 // ----------------------------------------
 // Code
+//-----------------------------------------
 
-$code-background: #c7c7c7;
-$code-color: #a8a8a8;
+
+// -------------
+// code.code
+
+$code-background: #262626;
+$code-color: #dbdbdb;
+$code-padding: 4px 4px; // Padding of code.code
+$code-border: 4px; // Border of code.code
+$code-width: 500px;
 
 // ----------------------------------------
 // Table
+// ----------------------------------------
 
 $table-border-size: 2px; // border size
 $table-set-style: dotted; // Set type of border
@@ -71,6 +87,7 @@ $table-td-color: #ddd; // Color of the border
 
 //------------------------------------------
 // Navbar
+//------------------------------------------
 
 $navbar-number-of-content: 2; // The defaut: 2
 /*
@@ -100,6 +117,6 @@ $gray10: #e6e6e6;
 // ---------------------------------------
 // Typography variables
 
-$base-color: black; // Base color of police
+$base-color: $black; // Base color of police
 $line-height: 1.375; // establish a consistent line-height equal to 22px
 $vertical-measure: 1.375em; // establish a vertical distance for margins equal to line-height

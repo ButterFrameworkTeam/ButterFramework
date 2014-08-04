@@ -17,32 +17,40 @@ code, pre, kbd
 
 // -------------------------------
 // Code
+
 code 
 {
-    background-color: $code-background;
-    font-size: 95%;
-    color: $code-color;
-    padding: 2px 4px;
-    @include border-radius(2px); // set border radius fo the padding to 2pixels
-    
-    &.block 
+    &.code
     {// For code in block
+        width: $code-width;
+        height: auto;
+        display: block;
+        background-color: $code-background;
+        color: $code-color;
+        padding: $code-padding;
         word-break: break-all;
-        word-wrap: break-word;
-        @include border-radius(0px);
+        word-wrap: break-word;      
         
-    }   
+        @include border-radius($code-border); // Border to 4px
+        
+            @media only screen and (max-width : 540px)
+            {
+                width: auto; // Adapted block code
+            }
+        
+    } // End .code.code
+
 }
 
 pre
-{
-    font-size: 90%;
-    
-    &.code
+{  
+    &.pre
     {
-        white-space: pre-wrap;
-        background-color: transparent;
-        @include border-radius(0px);
+        background-color: #ccc;
+        padding: 2px 2px;
+        display: block;
+        word-break: break-all;
+        word-wrap: break-word;
     }
 }
 
@@ -52,6 +60,11 @@ kbd
     
     &.kbd
     {
+        padding: 6px 6px;
+        background-color: #e0e0e0;
+        display: block;
+        word-break: break-all;
+        word-wrap: break-word;
         box-shadow: none;
     }
         

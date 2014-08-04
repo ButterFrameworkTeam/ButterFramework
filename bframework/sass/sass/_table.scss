@@ -12,13 +12,24 @@ MIT license
 
 table
 { // set no border 
+    line-height: 2em;
     border-collapse: collapse; // No border
+    
+    // --------------------
+    // Table class
+    
+    &.table // Table in full page
+    {
+        width: 100%;
+        max-width: 100%;
+    }
 }
 
 td // Set the border
 {
     border: $table-border-size $table-set-style $table-td-color;
 }
+
 // -----------------------
 // Conf some stuff
 
@@ -29,15 +40,6 @@ td, th
     border-top: 0;
     text-transform: none;
     text-align: left;
-}
-
-// --------------------
-// Table class
-
-.table // Table in full page
-{
-    width: 100%;
-    max-width: 100%;
 }
 
 caption // Set the 'caption' text

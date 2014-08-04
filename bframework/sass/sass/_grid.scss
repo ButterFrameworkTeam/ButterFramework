@@ -14,6 +14,8 @@ $column-width:    15%;    // set column width
 $gutter-width:    2%;      // set gutter width
 $maximum-columns: 6;      // set max number of columns
 
+// Functions
+
 @function columns($columns, $container-columns: $maximum-columns) {
   $width: $columns * $column-width + ($columns - 1) * $gutter-width;
   $container-width: $container-columns * $column-width + ($container-columns - 1) * $gutter-width;
