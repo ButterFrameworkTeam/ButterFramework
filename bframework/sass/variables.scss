@@ -8,21 +8,22 @@ MIT license
 */
 
 // ------------------------------------------
+// ------------------------------------------
 // ---- Framework customisable variables ----
 // ------------------------------------------
+// ------------------------------------------
 
-
-// ---------------------------------------
+// -----------------------
 // Police
-//------------------------------------------
+//------------------------
 
 $framework-police: Arial;
 $framework-font-family: sans-serif;
 
 
-// ---------------------------------------
+// -----------------------
 // Custom font size
-//------------------------------------------
+// -----------------------
 
 $h2-size: 1.375em; //h2 , default: 22px
 $h3-size: 1.25em; //h3 , default: 20px
@@ -30,16 +31,16 @@ $h4-size: 1.125em; //h4 , default: 18px
 $h5-size: 1em; //h5 , default: 16px
 $h6-size: 0.875em; //h6 , default: 14px
 
-//-----------------------------------------
-// Text antialiasing
-//------------------------------------------
+// -----------------------
+// Text 
+// -----------------------
 
-$text-set-antialiasing: antialiased; // Vars : antialiased | none | subpixel-antialiased
-                                    // For Safari, Chrome, other webkit
+$text-set-antialiasing: antialiased; // Vars : antialiased | none | subpixel-antialiased || For Safari, Chrome, other webkit
+$text-rendering: optimizeSpeed; // auto | optimizeSpeed | optimizeLegibility | geometricPrecision | inherit  || Firefox (Gecko), Chrome, Safari                                   
 
-//------------------------------------------
+// -----------------------
 // Colors
-//------------------------------------------
+// -----------------------
 
 $gray: gray;
 $yellow: yellow;
@@ -63,12 +64,13 @@ $azur1: #007FFF;
 $azur2: #1E7FCB;
 $lightazur: #74D0F1; 
 $cclay: #EFEFEF; // C for color, another C for clay
-// ----------------------------------------
+
+// -----------------------
 // Code
-//-----------------------------------------
+// -----------------------
 
 
-// -------------
+// -----------------------
 // code.code
 
 $code-background: #262626;
@@ -77,17 +79,18 @@ $code-padding: 4px 4px; // Padding of code.code
 $code-border: 4px; // Border of code.code
 $code-width: 500px;
 
-// ----------------------------------------
+
+// -----------------------
 // Table
-// ----------------------------------------
+// -----------------------
 
 $table-border-size: 2px; // border size
 $table-set-style: dotted; // Set type of border
 $table-td-color: #ddd; // Color of the border
 
-//------------------------------------------
+// -----------------------
 // Navbar
-//------------------------------------------
+// -----------------------
 
 $navbar-number-of-content: 2; // The defaut: 2
 /*
@@ -99,9 +102,14 @@ For mobile version : Add or remove for adding or removing a line
 4 line: $navbar-number-of-content: 4;
 */
 
-// ======= Grid ==========
 
-// ----------------------------------------
+// -----------------------
+// -----------------------
+// ======= Grid ==========
+// -----------------------
+// -----------------------
+
+// -----------------------
 // White - Grays - Black
 
 $gray90: #1a1a1a;
@@ -114,7 +122,7 @@ $gray30: #b3b3b3;
 $gray20: #ccc;
 $gray10: #e6e6e6;
 
-// ---------------------------------------
+// -----------------------
 // Typography variables
 
 $base-color: $black; // Base color of police

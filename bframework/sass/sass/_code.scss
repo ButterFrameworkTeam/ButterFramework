@@ -46,11 +46,9 @@ pre
 {  
     &.pre
     {
-        background-color: #ccc;
-        padding: 2px 2px;
-        display: block;
-        word-break: break-all;
-        word-wrap: break-word;
+        padding: 6px 6px;
+        @extend code.code // Import code style
+        
     }
 }
 
@@ -60,12 +58,11 @@ kbd
     
     &.kbd
     {
-        padding: 6px 6px;
+            
         background-color: #e0e0e0;
-        display: block;
-        word-break: break-all;
-        word-wrap: break-word;
-        box-shadow: none;
+        color: #656565;
+        padding: 6px 6px;
+        @extend code.code // Import code style
     }
         
 }

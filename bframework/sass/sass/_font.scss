@@ -15,34 +15,7 @@ h1,h2,h3,h4,h5,h6
 }
 
 // -------------------------
-// Font size
-
-h2
-{
-    font-size: $h2-size;
-}
-
-h3
-{
-    font-size: $h3-size;
-}
-
-h4
-{
-    font-size: $h4-size;
-}
-
-h5
-{
-    font-size: $h5-size;
-}
-
-h6
-{
-    font-size: $h6-size;
-}
-
-// set the Antialiasing 
+// Antialiasing 
 html, input, textarea, select, button,code, pre 
 {
     text-shadow: 1px 1px 1px rgba(0,0,0,0.005); // Font smooth hack
