@@ -8,13 +8,72 @@ MIT license
 */
 // -----------------------
 // Text font
-p, a
+// -------------------------
+
+
+body
 {
     font-family: $framework-police;
+    line-height: $line-height;
+}
+
+p 
+{
+  margin: 0 0 $vertical-measure 0; // set bottom margin equal to line-height/vertical measure
+  font-size: 1em;
+  line-height: $line-height;
+}
+
+// -------------------------
+// Font size
+// -------------------------
+// Custom font
+
+h1
+{
+    line-height: 2.05; // tweak to align h1 to baseline within container
+}
+    
+h2
+{
+    font-size: $h2-size;
+    line-height: 3.1; // tweak to align h2 to baseline within container
+     margin-bottom: -0.32em; // tweak to align h2 to baseline within container
+}
+
+h3
+{
+    font-size: $h3-size;
+}
+
+h4
+{
+    font-size: $h4-size;
+}
+
+h5
+{
+    font-size: $h5-size;
+}
+
+h6
+{
+    font-size: $h6-size;
+}
+
+// End font size
+//-------------------------------------
+
+h1, h2, h3, h4, h5, h6 
+{
+  margin: 0;
+  text-rendering: $text-rendering;
 }
 
 
-/* TEXT POSITION ---------------------------------------*/
+//-------------------------------------
+// Text Position
+//-------------------------------------
 .textjust // Justify the text
 {
     text-align:justify;
@@ -33,8 +92,9 @@ p, a
 }
 
 
-// ------------------------------------------------------
+//-------------------------------------
 // Textsize : set the size of text
+//-------------------------------------
 .text25 // Set 25%
 {
     font-size: 25%;
@@ -56,41 +116,44 @@ p, a
     font-size: 200%;
 }
 
-// ---------------------------------------------
+//-------------------------------------
 //Set the text in bold/italic/...
+//-------------------------------------
 
 
 .textbold
 {
     font-weight: bold;
 }
+
 .textitalic
 {
     font-style: italic;
 }
+
 em.noitalic
 {
     font-style: normal;
 }
+
 a.textdnone // Remove the decoration of <A> Tag
 {
     text-decoration: none;
 }
+
 .textlinet
 {
     text-decoration: line-through;
 }
+
 .textover
 {
     text-decoration: overline;
 }
-.textblink
-{
-    text-decoration: blink;
-}
-// ------------------------------------------
-// Uppercase/Downcase/...
 
+//-------------------------------------
+// Uppercase/Downcase/...
+//-------------------------------------
 
 .textupperc
 {
@@ -119,7 +182,7 @@ a.textdnone // Remove the decoration of <A> Tag
 
 //-------------------------------------
 /* P - Letter space */
-
+//-------------------------------------
 
 .letterspace5px // Letterspacing - 5 px
 {
@@ -144,9 +207,4 @@ a.textdnone // Remove the decoration of <A> Tag
 .letterspace1px
 {
     letter-spacing: 1px;  
-}
-
-.textshadowb // Simple shadows text
-{
-    text-shadow: 5px 5px 5px #000;
 }

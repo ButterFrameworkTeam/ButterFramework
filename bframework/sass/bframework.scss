@@ -20,7 +20,7 @@ MIT license
 //-------------------------------------
 // Variables
 
-@import "variables"; // Reset all
+@import "Config"; // Reset all
 
 //-------------------------------------
 // CSS Reset
@@ -44,6 +44,5 @@ MIT license
 // ---------------------------------------
 // Grid Core
 @import "sass/grid"; // Grid system
-@import "sass/typography"; // Grid Style
 @import "sass/global";
 

@@ -9,13 +9,18 @@ MIT license
 
 // -------------------------
 // set the font
-h1,h2,h3,h4,h5,h6
+// -------------------------
+
+body
 {
+    line-height: $line-height;
     font-family: $framework-police $framework-font-family;
 }
 
 // -------------------------
 // Antialiasing 
+// -------------------------
+
 html, input, textarea, select, button,code, pre 
 {
     text-shadow: 1px 1px 1px rgba(0,0,0,0.005); // Font smooth hack

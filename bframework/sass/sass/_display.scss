@@ -7,29 +7,22 @@ MIT license
 2014
 */
 
-// WordBreak
-.wordbreak{
-    
-    word-wrap:break-word;   
+/* DISPLAY ELEMENTS */
+.vhidden
+{    
+    visibility: hidden;    
 }
 
-/* DISPLAY ELEMENTS */
-.vhidden{ 
-    
-    visibility: hidden;
-    
+.vnone 
+{    
+    display: none;   
 }
-.vnone {
-    
-    display: none;
-    
+
+.displayinline
+{   
+    display: inline;   
 }
-.displayinline{
-    
-    display: inline;
-    
-}
-.displayblock {
-    
+.displayblock 
+{   
     display: block;
 }
