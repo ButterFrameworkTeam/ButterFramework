@@ -12,7 +12,7 @@ MIT license
 
 table
 { // set no border 
-    line-height: 2em;
+    line-height: 2.2em;
     border-collapse: collapse; // No border
     
     // --------------------
@@ -40,9 +40,16 @@ td, th
     border-top: 0;
     text-transform: none;
     text-align: left;
+    padding-left: 2px;
 }
 
 caption // Set the 'caption' text
 {
     text-align: left;
+    
+    &.caption
+    {
+        font-weight: bold;
+        font-size: 1.5em;
+    }
 }

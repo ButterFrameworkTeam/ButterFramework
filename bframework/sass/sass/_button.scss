@@ -10,13 +10,13 @@ MIT license
 
 button {
     
-    button
+    &.button
     {
         display: block;
         padding: .9em 1em;
-        font: 1em;
+        font: 1.2em;
         text-decoration: none;
-        background: steelblue;
+        background: #4b7dbc;
         color: white;
         border: none;
         
@@ -31,7 +31,7 @@ button {
             { // When mouse is over
             
                 cursor: pointer;
-                background-color: #4576a0;
+                background-color: #41699d;
             }
     
     }        

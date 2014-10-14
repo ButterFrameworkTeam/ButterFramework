@@ -86,3 +86,9 @@ Background Color
 .backgazur2
 .backglightazur
 .backgclay
+------------------
+Table
+------------------
+caption.caption       Set the caption has a real title
+table.table           The table take the entire screen
+
