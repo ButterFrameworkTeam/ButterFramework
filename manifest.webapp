@@ -1,5 +1,5 @@
 {
-	"name":"BFramework",
+	"name":"BFramework App",
 
 	"description":"BFramework FirefoxOS",
 
@@ -17,7 +17,7 @@
 	"developer": 
 	{
 	
-    	"name": "Votre nom ou celle de votre organisation",
+    	"name": "Your name or your organisation name",
     	"url": "http://Your-website.org"
   	},
   
